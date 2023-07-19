@@ -83,3 +83,35 @@ header nav ul li a:hover {
 	text-align: center;
 	font-size: 2em;
 }
+
+/* ======================= What will you learn==================*/
+
+#learn {
+	background-image: url(../imgs/learn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.learn-header {
+	text-align: center;
+	background-color: #424949;
+	color: white;
+	height: 60px;
+	width: 100%;
+	margin: 0px;
+	display: table;
+	vertical-align: middle;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-item {
+	padding: 20px;
+	text-align: center;
+}
