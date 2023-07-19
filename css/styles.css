@@ -84,7 +84,7 @@ header nav ul li a:hover {
 	font-size: 2em;
 }
 
-/* ======================= What will you learn==================*/
+/* ======================= What will you learn ==================*/
 
 #learn {
 	background-image: url(../imgs/learn.jpg);
@@ -114,4 +114,77 @@ header nav ul li a:hover {
 .grid-item {
 	padding: 20px;
 	text-align: center;
+}
+
+.menu-box {
+	border: solid;
+	border-color: #3b5993;
+	background-color: rgba(44, 66, 80, 0.5);
+	height: 400px;
+	width: 325px;
+	margin: auto;
+	border-radius: 3px;
+}
+
+.icon-box {
+	display: table;
+	margin: 50px auto;
+	border-radius: 25px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.icon-box i {
+	display: table-cell;
+	margin: auto;
+	font-size: 150px;
+	text-align: center;
+	vertical-align: middle;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+#learn figcaption {
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	margin: -80px 0 0 -160px;
+	font-size: 30px;
+	color: white;
+}
+
+.html {
+	background-color: #e34f26;
+}
+
+.css {
+	background-color: #3b5998;
+}
+
+.database {
+	background-color: #f29111;
+}
+
+.php {
+	background-color: #8892be;
+}
+
+.js {
+	background-color: #f7df1e;
+}
+
+.mobile {
+	background-color: #a4c639;
+}
+
+.menu-box p {
+	margin: 60px 10px 0px 10px;
+	color: white;
 }
