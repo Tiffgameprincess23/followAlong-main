@@ -52,3 +52,34 @@ header nav ul li a {
 header nav ul li a:hover {
 	background-color: #3b5993;
 }
+
+/* ===================== Hero ===================== */
+#hero {
+	background-image: url(../imgs/rocket.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	display: table;
+	height: 800%;
+	width: 100%;
+	text-align: center;
+}
+
+.hero-text {
+	display: table-cell;
+	color: white;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+/* ====================== students ===================*/
+
+#student {
+	width: 75%;
+	margin: 50px auto;
+}
+
+#students h2 {
+	text-align: center;
+	font-size: 2em;
+}
